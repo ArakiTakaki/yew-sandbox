@@ -1,17 +1,15 @@
 use yew::prelude::*;
-use super::todo::TodoApp;
-// use super::todo::TodoApp;
 
-pub struct App {}
+pub struct TodoApp {}
 
 pub enum Msg {}
 
-impl Component for App {
+impl Component for TodoApp {
     type Message = Msg;
     type Properties = ();
 
     fn create(_: Self::Properties, _: ComponentLink<Self>) -> Self {
-        App {}
+        TodoApp {}
     }
 
     fn update(&mut self, _msg: Self::Message) -> ShouldRender {
@@ -23,7 +21,7 @@ impl Component for App {
     }
     fn view(&self) -> Html {
         html! {
-            <p><TodoApp /></p>
+            <p>{"hello"}</p>
         }
     }
 }
