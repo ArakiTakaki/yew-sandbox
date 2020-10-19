@@ -16,7 +16,7 @@ impl Component for App {
         true
     }
 
-    fn change(&mut self, props: Self::Properties) -> ShouldRender {
+    fn change(&mut self, _props: Self::Properties) -> ShouldRender {
         true
     }
     fn view(&self) -> Html {
