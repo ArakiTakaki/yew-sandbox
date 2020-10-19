@@ -1,5 +1,6 @@
 use yew::prelude::*;
 use super::todo::TodoApp;
+use super::constants::TITLE;
 // use super::todo::TodoApp;
 
 pub struct App {}
@@ -23,7 +24,10 @@ impl Component for App {
     }
     fn view(&self) -> Html {
         html! {
-            <p><TodoApp /></p>
+            <div>
+                <p>{ TITLE }</p>
+                <p><TodoApp /></p>
+            </div>
         }
     }
 }

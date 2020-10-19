@@ -1,3 +1,1 @@
-pub enum Ort{
-  hoge,
-}
+pub static TITLE: &str = "SITE_TITLE";
