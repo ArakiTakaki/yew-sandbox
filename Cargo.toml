@@ -1,5 +1,5 @@
 [package]
-name = "yew-exmaple"
+name = "yew_exmaple"
 version = "0.1.0"
 authors = ["ArakiTakaki <araki_takaki@yahoo.co.jp>"]
 edition = "2018"

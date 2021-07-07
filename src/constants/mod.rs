@@ -1,0 +1,1 @@
+pub static TITLE: &str = "SITE_TITLE";
